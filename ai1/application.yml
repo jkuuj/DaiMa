@@ -1,0 +1,13 @@
+server:
+  port: 8099
+
+spring:
+  application:
+    name: deepseek-ai-chat
+  ai:
+    deepseek:
+      api-key: sk-9e746d4fe7614911b7b9a7ba428a06d4
+      chat:
+        options:
+          model: deepseek-chat  #如官网所示可选deepseek-reasoner或deepseek-chat
+          temperature: 0.8
